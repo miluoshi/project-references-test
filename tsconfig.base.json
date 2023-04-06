@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@foo/bar": ["libs/bar/src/index.ts"],
       "@foo/foo": ["libs/foo/src/index.ts"]
     }
   },
