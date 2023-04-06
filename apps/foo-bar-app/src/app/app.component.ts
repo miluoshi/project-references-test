@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { bar } from '@foo/bar';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
@@ -10,4 +11,8 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 })
 export class AppComponent {
   title = 'foo-bar-app';
+
+  constructor() {
+    bar();
+  }
 }
